@@ -15,6 +15,7 @@
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@types/node": "^22.13.17",
+    "@types/request": "^2.48.12",
     "@vitest/coverage-v8": "^3.1.1",
     "eslint": "^9.23.0",
     "eslint-config-prettier": "^10.1.1",
@@ -25,5 +26,8 @@
     "typedoc": "^0.28.1",
     "typescript-eslint": "^8.29.0",
     "vitest": "^3.1.1"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
   }
 }
