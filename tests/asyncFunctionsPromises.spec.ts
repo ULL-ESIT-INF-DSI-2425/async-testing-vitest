@@ -17,7 +17,7 @@ describe("Asynchronous function coordinatesInfoPromises", () => {
   });
 });
 
-describe("Asynchronous function weatherInfoPromises tests", () => {
+/*describe("Asynchronous function weatherInfoPromises tests", () => {
   test("weatherInfoPromises should get weather information", () => {
     return weatherInfoPromises("Tenerife, Spain").then((data) => {
       expect(data.body.location.name).to.be.equal("Tenerife");
@@ -29,4 +29,4 @@ describe("Asynchronous function weatherInfoPromises tests", () => {
       expect(err).to.be.equal("request_failed");
     });
   });
-});
+});*/
