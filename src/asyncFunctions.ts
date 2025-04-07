@@ -12,7 +12,7 @@ export const coordinatesInfo = (
     data: request.Response | undefined,
   ) => void,
 ) => {
-  const url = `http://api.mapbox.com/search/geocode/v6/forward?q=${encodeURIComponent(location)}&access_token=pk.eyJ1IjoiZWR1c2VncmUiLCJhIjoiY204eWRqdWpwMDAxcTJrcXlqczRmODVhdiJ9.IkwG4JnMDe6CnQWrmU0aew&limit=1`;
+  const url = `http://api.mapbox.com/search/geocode/v6/forward?q=${encodeURIComponent(location)}&access_token=pk.eyJ1IjoiZWR1c2VncmUiLCJhIjoiY205MDY2aDZoMGo1ZDJocjA1ZTY2dHYyeCJ9.dJrmYDMmeVPotPhQPxeGBA&limit=1`;
 
   request({ url: url, json: true }, (error: Error, response) => {
     if (error) {
