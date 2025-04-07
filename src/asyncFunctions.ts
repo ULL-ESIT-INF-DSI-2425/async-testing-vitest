@@ -37,7 +37,7 @@ export const weatherInfo = (
     data: request.Response | undefined,
   ) => void,
 ) => {
-  const url = `http://api.weatherstack.com/current?access_key=d54827295dcf5f75287ecc9c287ff2a3&query=${encodeURIComponent(location)}&units=m`;
+  const url = `http://api.weatherstack.com/current?access_key=81f7a73f7be745f0842e79d7cea739ca&query=${encodeURIComponent(location)}&units=m`;
 
   request({ url: url, json: true }, (error: Error, response) => {
     if (error) {
