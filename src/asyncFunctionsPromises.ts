@@ -24,7 +24,7 @@ export const coordinatesInfoPromises = (location: string) => {
 };
 
 /**
- * 
+ *
  * @param location - Lat/long coordinates to look for weather info in weatherstack API
  * @returns A promise, which in case it is resolved, provides a response from the weatherstack API
  */
@@ -44,4 +44,4 @@ export const weatherInfoPromises = (location: string) => {
       },
     );
   });
-}
+};
