@@ -6,7 +6,7 @@ import request from "request";
  * @returns A promise, which in case it is resolved, provides a response from the Mapbox API
  */
 export const coordinatesInfoPromises = (location: string) => {
-  const url = `http://api.mapbox.com/search/geocode/v6/forward?q=${encodeURIComponent(location)}&access_token=pk.eyJ1IjoiZWR1c2VncmUiLCJhIjoiY205MDY2aDZoMGo1ZDJocjA1ZTY2dHYyeCJ9.dJrmYDMmeVPotPhQPxeGBA&limit=1`;
+  const url = `http://api.mapbox.com/search/geocode/v6/forward?q=${encodeURIComponent(location)}&access_token=pk.eyJ1IjoiZWR1c2VncmUiLCJhIjoiY205OGRyMXZlMDFzdDJyc2Rzem53azBxMCJ9.ZsA3x1bK6-jR6GtCxYA74Q&limit=1`;
   return new Promise<request.Response>((resolve, reject) => {
     request(
       { url: url, json: true },
